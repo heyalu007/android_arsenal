@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_1111"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:id="@+id/ll_1111"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/colorRed">
+
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_weight="1"
+            android:layout_height="0dp" />
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/colorAccent"
+            android:layout_weight="1"
+            android:layout_height="0dp" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:background="@color/colorRed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/view_11111"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/colorBlue"/>
+        <View
+            android:id="@+id/view_22222"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/colorAccent"
+            android:layout_toRightOf="@+id/view_11111"
+            android:layout_below="@+id/view_11111"/>
+    </RelativeLayout>
+</LinearLayout>
