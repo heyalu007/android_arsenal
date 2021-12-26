@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Chelsea.iml" filepath="$PROJECT_DIR$/.idea/modules/Chelsea.iml" group="Chelsea" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Chelsea/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Chelsea.iml" filepath="$PROJECT_DIR$/.idea/modules/Chelsea.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Chelsea.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Chelsea.app.iml" />
     </modules>
   </component>
 </project>
